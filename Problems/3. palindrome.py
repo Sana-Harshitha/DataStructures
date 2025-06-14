@@ -7,6 +7,7 @@ def palindrome_check(user_input):
         result =result*10 + id
         num //= 10
     return result==user_input
+    
 if palindrome_check(user_input):
     print(f"Your Entered Number is a Palindrome")
 else:
